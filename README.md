@@ -82,11 +82,11 @@ The APB controller is designed for low-power peripheral communication and verifi
 ├── rtl/
 │   ├── apb_master.v
 │   ├── apb_slave.v
-│   ├── address_decoder.v
-│   ├── apb_controller_top.v
+|   ├── top_module.v
+
 │
 ├── testbench/
-│   └── tb_apb_top.v
+│   └── TB.v
 │
 ├── simulation/
 │   └── waveform.png
